@@ -14,13 +14,13 @@ const Countries = () => {
         <div>
             <h1>Hello all countries: {countries.length}</h1>
 
-            {
+            {/* {
                 countries.map(country => console.log(country))
-            }
+            } */}
 
             {
-                countries.map(country => <Country name={country.name.official} population={country.population} area ={country.area
-                }></Country>)
+                countries.map(country => <Country 
+                    country = {country} ></Country>)
             }
 
         </div>
